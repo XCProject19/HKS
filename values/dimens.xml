@@ -1,0 +1,40 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="poster_margin">0dp</dimen>
+    <dimen name="poster_width">120dp</dimen>
+    <dimen name="poster_height">172dp</dimen>
+    <dimen name="poster_radius">2dp</dimen>
+    <dimen name="poster_elevation">0.5dp</dimen>
+    <dimen name="poster_margin_left">3dp</dimen>
+    <dimen name="poster_margin_right">0dp</dimen>
+    <dimen name="poster_card_border">3dp</dimen>
+
+    <dimen name="poster_title_fontsize">12dp</dimen>
+
+
+    <dimen name="channelcardradius">5dp</dimen>
+    <dimen name="channelcardelevation">2dp</dimen>
+    <dimen name="channelcardmargin">8dp</dimen>
+    <dimen name="channelcard_height">95dp</dimen>
+    <dimen name="action_button_text_site">12dp</dimen>
+    <dimen name="checkCardmargin">15dp</dimen>
+    <dimen name="checkCard_radius">15dp</dimen>
+    <dimen name="formmarginlr">20dp</dimen>
+    <dimen name="formitem_height">45dp</dimen>
+    <dimen name="item_width">130dp</dimen>
+    <dimen name="item_height">180dp</dimen>
+    <dimen name="item_title_size">12dp</dimen>
+    <dimen name="layout_bottom_margin">25dp</dimen>
+    <dimen name="viewer_title_size">16dp</dimen>
+    <dimen name="title_layout_height">40dp</dimen>
+    <dimen name="title_layout_margin_top">6dp</dimen>
+    <dimen name="item_desc_size">10dp</dimen>
+    <dimen name="mainItemWith">116dp</dimen>
+    <dimen name="mainCardElevation">1.5dp</dimen>
+</resources>
