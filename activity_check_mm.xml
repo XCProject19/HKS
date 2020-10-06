@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:id="@+id/checkLayout"
+        android:background="@color/colorMainBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/up"
+            android:layout_margin="0dp"
+            android:id="@+id/textView2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:src="@drawable/xcomicsplit"
+        />
+        
+        
+            <RelativeLayout
+                android:id="@+id/up"
+                android:paddingBottom="@dimen/formmarginlr"
+                android:layout_margin="@dimen/checkCardmargin"
+                android:layout_centerInParent="true"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:textSize="25dp"
+                    android:textColor="@color/titleColor"
+                    android:layout_width="match_parent"
+                    android:text="@string/question"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"/>
+                
+                    <EditText
+                        android:singleLine="true"
+                        android:layout_margin="@dimen/formmarginlr"
+                        android:layout_below="@+id/textView1"
+                        android:background="@drawable/border_edittext"
+                        android:textColor="@color/titleColor"
+                        android:textColorHint="@color/titleColor"
+                        android:id="@+id/getanswer"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:padding="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/answerhint"/>
+                
+                <Button
+                    android:layout_marginBottom="@dimen/formmarginlr"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/submitButton"
+                    android:layout_marginRight="@dimen/formmarginlr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/formitem_height"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/getanswer"
+                    android:text="@string/submit"
+                    android:textColor="@color/titleColor"
+                    android:background="@drawable/border_submit"/>
+            
+                <CheckBox
+                    android:layout_toLeftOf="@+id/submitButton"
+                    android:layout_marginRight="@dimen/formmarginlr"
+                    android:layout_marginBottom="@dimen/formmarginlr"
+                    android:background="@drawable/border_check"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/formmarginlr"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="@color/colorMainBackground"
+                    android:id="@+id/saveAnswer"
+                    android:layout_below="@+id/getanswer"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/saveanswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/formitem_height"/>
+            </RelativeLayout>
+
+        
+    </RelativeLayout>
+    
+</androidx.constraintlayout.widget.ConstraintLayout>
